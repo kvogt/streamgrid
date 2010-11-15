@@ -23,7 +23,7 @@ for row in data:
 random.shuffle(channels)
 print "Slicing from following pool of channels (limit %s): %s" % (limit, channels)
 
-seconds = 30.0
+seconds = 5.0
 prefix = 'frames/'
 
 completed = 0
