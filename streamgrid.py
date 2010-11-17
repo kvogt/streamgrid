@@ -226,7 +226,7 @@ if __name__ == '__main__':
     glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_ALPHA | GLUT_DEPTH)
     glutInitWindowSize(640, 480)
     glutInitWindowPosition(0, 0)
-    window = glutCreateWindow("StreamGrid - \"Copyright infringement from every angle!\"")
+    window = glutCreateWindow("StreamGrid - Hit 's' and 'z' to make this go crazy!")
     grid.window_id = window
     glutDisplayFunc(grid.draw)
     glutIdleFunc(grid.idle)
