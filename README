@@ -1,0 +1,16 @@
+Written by Kyle Vogt for the Justin.tv Hack Day (Nov 12th, 2010)
+
+Dependecies:
+	FFMPEG (for slicer)
+	flvtools (for slicer)
+	PIL
+	PyOpenGL
+
+flvtools isn't currently a public project, but you can add video streams to 
+streamgrid by creating a folder called "frames" and adding sequentially 
+numbered jpg files to the directory.  Check the source of streamgrid.py for
+more details.
+
+Comments?  
+
+kyle@justin.tv
